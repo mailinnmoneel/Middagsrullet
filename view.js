@@ -9,9 +9,12 @@ function updateView() {
         <button id="rulletDiv" onclick="randomFood()">Få et middagsforslag</button>
         <div id="suggestionDiv">${eatThisFood}</div>
         <div id="addField">
-            <input id="foodSuggestions" type="text">
-            <button id="registerButton" onclick="addFood()">Legg til egne middagsønsker</button>
-          </div>
+            <h2>Legg til middagsforslag:</h2>
+            <div>
+                <input id="foodSuggestions" type="text">
+                <button id="registerButton" onclick="addFood()">Legg til</button>
+            </div>
+        </div>
     </div>
     `;
 }

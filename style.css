@@ -12,14 +12,15 @@ h1 {
     display: grid;
     place-items: center;
     background-color: #8ca3a3;
-    color: white;
+    color: #563f46;
     border: solid #563f46;
     height: 75vh;
+    text-shadow: 1px 1px black;
 }
 
 #rulletDiv {
     background-color: #563f46;
-    color: #c8c3cc;
+    color: white;
     padding: 3vh;
     text-align: center;
     text-decoration: none;
@@ -27,13 +28,14 @@ h1 {
     font-size: 4vh; 
     cursor: pointer; 
     border: none;
+    text-shadow: 1px 1px black;
 }
 
 #rulletDiv:hover {
     background-color: #c8c3cc;
     color: #563f46;
+    text-shadow: 1px 1px black;
 }
-
 
 #suggestionDiv {
     color: #563f46;
@@ -42,14 +44,18 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 6vh; 
-  
+    text-shadow: 1px 1px black;
+}
+
+#addField {
+    border-top: solid #563f46;
 }
 
 #foodSuggestions {
     background-color: #484f4f;
     color: white;
     font-size: 2vh; 
-    
+    text-shadow: 1px 1px black;
 }
 
 #registerButton {
@@ -57,10 +63,16 @@ h1 {
     color: white;
     font-size: 2vh; 
     cursor: pointer; 
+    text-shadow: 1px 1px black;
 }
 
 /* MOBILE VIEW  */
 @media only screen and (max-width: 600px) {
+    h1, h2 {
+        font-size: 25px;
+        padding: 0rem 2rem;
+    }
+
     #rulletDiv {
         font-size: 16px;         
     }

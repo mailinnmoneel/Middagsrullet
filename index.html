@@ -19,7 +19,6 @@ let food = ['Kylling', 'Fisk', 'Pizza', 'Spaghetti', 'Tapas', 'Pannekaker', ];
 let app = document.getElementById('app');
 let eatThisFood = '';
 
-// var food = items[Math.floor(Math.random() * food.length)];
 
 //view
 
@@ -33,7 +32,7 @@ function updateView() {
 
     <button onclick="randomFood()">Få et middagsforslag</button>
 
-    <div id="suggestedFood" ${eatThisFood} ></div>
+    <div id="suggestionDiv">${eatThisFood}</div>
 
     `;
 }
@@ -41,9 +40,11 @@ function updateView() {
 //Controller
 
 function randomFood() 
-{   
-    return food [Math.floor(Math.random() * food.length)];
-}
+    {   
+        eatThisFood = food[Math.floor(Math.random() * food.length)];
+
+        updateView()
+    }
 
 
 </script>

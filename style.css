@@ -4,6 +4,10 @@ body {
     margin-right: 10vh;
 }
 
+h1 {
+    text-align: center;
+}
+
 .parent {
     display: grid;
     place-items: center;
@@ -22,8 +26,14 @@ body {
     display: inline-block;
     font-size: 4vh; 
     cursor: pointer; 
-    
+    border: none;
 }
+
+#rulletDiv:hover {
+    background-color: #c8c3cc;
+    color: #563f46;
+}
+
 
 #suggestionDiv {
     color: #563f46;
@@ -49,4 +59,9 @@ body {
     cursor: pointer; 
 }
 
-/* button:hover {background-color: #3e8e41;} */
+/* MOBILE VIEW  */
+@media only screen and (max-width: 600px) {
+    #rulletDiv {
+        font-size: 16px;         
+    }
+  }

@@ -6,68 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Middagsrullet</title>
     <link rel="stylesheet" href="style.css">
-
+   
+    <script src="controller.js"></script>
+  
 </head>
 <body>
-    
+
 <div id="app"></div>
 
 <script>
-
+ 
 //Model
 let food = ['Kylling', 'Makrell', 'Pizza', 'Spaghetti', 'Tapas', 'Pannekaker', 'Wok', 'Burger', 'Biff', 'Kyllingsalat', ];
 let app = document.getElementById('app');
-let eatThisFood = '';
+let eatThisFood = ' ?middag?';
 let iWantThisFood = '';
 var foodInputField;
-
-//view
 
 updateView();
 
 function updateView() {
 
-    app.innerHTML=`
+    app.innerHTML= `
     <div class="parent">
         <h1> Usikker på hva du vil spise til middag i dag?</h1>
-
-        <button onclick="addFood()">Legg til egne middagsønsker</button><br>
-        <input id="foodSuggestionsFromUser" type="text">
-        <br>
-        <button onclick="randomFood()">Få et middagsforslag</button>
-
+        <button id="rulletDiv" onclick="randomFood()">Få et middagsforslag</button>
         <div id="suggestionDiv">${eatThisFood}</div>
+        <div id="addField">
+            <input id="foodSuggestions" type="text">
+            <button id="registerButton" onclick="addFood()">Legg til egne middagsønsker</button>
+          </div>
     </div>
     `;
 }
-
-//Controller
-
-function randomFood() 
-{   
-        eatThisFood = food[Math.floor(Math.random() * food.length)];
-
-    updateView()
-}
-
-
-function addFood()
-{   
-    foodInputField = document.getElementById("foodSuggestionsFromUser"); 
-    let newFood = foodInputField.value;
-
-    food.push(newFood);
-
-
-    updateView()
-}
-
-// function removeFood()
-// {
-//     food.splice();
-
-//     updateView()
-// }
 
 </script>
 

@@ -1,10 +1,52 @@
 body {
-
-    background-color: floralwhite;
-
+    background-color: #c8c3cc;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
 .parent {
     display: grid;
     place-items: center;
+    background-color: #8ca3a3;
+    color: white;
+    border: solid #563f46;
+    height: 75vh;
 }
+
+#rulletDiv {
+    background-color: #563f46;
+    color: #c8c3cc;
+    padding: 3vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4vh; 
+    cursor: pointer; 
+    
+}
+
+#suggestionDiv {
+    color: #563f46;
+    padding: 3vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6vh; 
+  
+}
+
+#foodSuggestions {
+    background-color: #484f4f;
+    color: white;
+    font-size: 2vh; 
+    
+}
+
+#registerButton {
+    background-color: #484f4f;
+    color: white;
+    font-size: 2vh; 
+    cursor: pointer; 
+}
+
+/* button:hover {background-color: #3e8e41;} */

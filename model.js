@@ -1,10 +1,13 @@
 
-let food = ['Kylling', 'Makrell', 'Pizza', 'Spaghetti', 'Tapas', 'Pannekaker', 'Wok', 'Burger', 'Biff', 'Kyllingsalat', ];
+let food = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
+            'Spaghetti og Kjøttboller', 'Tapas',
+            'Protein Pannekaker med jordbær', 'Grønnsaks Wok', 
+            'Haloumi Burger', 'Biff og Grønnsaker', 'Kyllingsalat', ];
 
 
 
 let app = document.getElementById('app');
-let eatThisFood = 'Pizza';
+let eatThisFood = 'Pizza med Ananas';
 let iWantThisFood = '';
 var foodInputField;
 

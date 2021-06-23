@@ -9,13 +9,13 @@ h1, h2 {
 }
 
 .parent {
-    display: grid;
-    place-items: center;
+    display: grid;    
     background-color: #8ca3a3;
     color: #563f46;
     border: solid #563f46;
     height: 95vh;
     text-shadow: 1px 1px black;
+    place-items: center;
 }
 
 #rulletDiv {
@@ -29,9 +29,11 @@ h1, h2 {
     cursor: pointer; 
     border: none;
     text-shadow: 1px 1px black;
+    border-radius: 10px;
 }
 
-#rulletDiv:hover {
+#rulletDiv:hover,
+#rulletDiv:focus {
     background-color: #c8c3cc;
     color: #563f46;
     text-shadow: 1px 1px black;
@@ -48,23 +50,27 @@ h1, h2 {
 }
 
 #addField {
-    /* border-top: solid #563f46; */
+    border-top: solid #563f46;
     text-align-last: center;
 }
 
 #foodSuggestions {
     background-color: #484f4f;
     color: white;
-    font-size: 2vh; 
+    font-size: 16px;
     text-shadow: 2px 2px black;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #registerButton {
     background-color: #484f4f;
     color: white;
-    font-size: 2vh; 
-    cursor: pointer; 
+    font-size: 16px;
+    cursor: pointer;
     text-shadow: 1px 1px black;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 /* MOBILE VIEW  */

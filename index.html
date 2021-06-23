@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middagsrullet</title>
+    <link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+    
+<div id="app"></div>
+
+<script>
+
+//Model
+let food = ['Kylling', 'Fisk', 'Pizza', 'Spaghetti', 'Tapas', 'Pannekaker', ];
+let app = document.getElementById('app');
+let eatThisFood = '';
+
+// var food = items[Math.floor(Math.random() * food.length)];
+
+//view
+
+updateView();
+
+function updateView() {
+
+    app.innerHTML=`
+
+    <h1> Usikker på hva du vil spise til middag i dag?</h1>
+
+    <button onclick="randomFood()">Få et middagsforslag</button>
+
+    <div id="suggestedFood" ${eatThisFood} ></div>
+
+    `;
+}
+
+//Controller
+
+function randomFood() 
+{   
+    return food [Math.floor(Math.random() * food.length)];
+}
+
+
+</script>
+
+</body>
+</html>

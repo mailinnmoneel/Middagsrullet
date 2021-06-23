@@ -1,7 +1,7 @@
 body {
     background-color: #c8c3cc;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1 {
@@ -49,6 +49,7 @@ h1 {
 
 #addField {
     border-top: solid #563f46;
+    text-align-last: center;
 }
 
 #foodSuggestions {
@@ -68,6 +69,10 @@ h1 {
 
 /* MOBILE VIEW  */
 @media only screen and (max-width: 600px) {
+    body {
+        padding: 0 1rem;
+    }
+
     h1, h2 {
         font-size: 25px;
         padding: 0rem 2rem;

@@ -4,7 +4,7 @@ body {
     margin-right: 10px;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ h1 {
     background-color: #8ca3a3;
     color: #563f46;
     border: solid #563f46;
-    height: 75vh;
+    height: 95vh;
     text-shadow: 1px 1px black;
 }
 
@@ -48,7 +48,7 @@ h1 {
 }
 
 #addField {
-    border-top: solid #563f46;
+    /* border-top: solid #563f46; */
     text-align-last: center;
 }
 
@@ -56,7 +56,7 @@ h1 {
     background-color: #484f4f;
     color: white;
     font-size: 2vh; 
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 #registerButton {
@@ -70,7 +70,7 @@ h1 {
 /* MOBILE VIEW  */
 @media only screen and (max-width: 600px) {
     body {
-        padding: 0 1rem;
+        margin: 5px;
     }
 
     h1, h2 {

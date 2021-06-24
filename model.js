@@ -9,5 +9,9 @@ let food = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
 let app = document.getElementById('app');
 let eatThisFood = 'Pizza med Ananas';
 let iWantThisFood = '';
-var foodInputField;
 
+// let emptyInput = '  ';
+
+// var foodInputField;
+
+// const food = {type:"Kylling og Pasta", difficulty: "easy" time: "medium",};

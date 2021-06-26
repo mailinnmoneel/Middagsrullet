@@ -1,10 +1,13 @@
 //Controller
-function randomFood() 
-{       
-        eatThisFood = food[Math.floor(Math.random() * food.length)];
+
+function randomFood(index) 
+{    
+    const allFood = allFood[index];
+    allFood.forslag = allFood[index][Math.floor(Math.random() * allFood[index]) ];
 
     updateView()
 }
+
 
 // function randomFood() 
 // {       

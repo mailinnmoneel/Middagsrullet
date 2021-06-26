@@ -1,7 +1,7 @@
-let food = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
-'Spaghetti og Kjøttboller', 'Tapas',
-'Protein Pannekaker med jordbær', 'Grønnsaks Wok', 
-'Haloumi Burger', 'Biff og Grønnsaker', 'Kyllingsalat', ];
+// let foods = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
+// 'Spaghetti og Kjøttboller', 'Tapas',
+// 'Protein Pannekaker med jordbær', 'Grønnsaks Wok', 
+// 'Haloumi Burger', 'Biff og Grønnsaker', 'Kyllingsalat', ];
 
 
 
@@ -25,8 +25,7 @@ let allFood = [
             { type:'Helgekos', difficulty: 'medium', time: 'medium', forslag: 'Biff med stekt tomat, småpoteter og soppsaus' },
         ];      
 
-
-let eatThisFood = 'Middags Rullet';
+// let eatThisFood = 'Middags Rullet';
 let iWantThisFood = '';
 let app = document.getElementById('app');
 

@@ -25,7 +25,7 @@ let allFood = [
             { type:'Helgekos', difficulty: 'medium', time: 'medium', forslag: 'Biff med stekt tomat, småpoteter og soppsaus' },
         ];      
 
-// let eatThisFood = 'Middags Rullet';
+let eatThisFood = 'Middags Rullet';
 let iWantThisFood = '';
 let app = document.getElementById('app');
 

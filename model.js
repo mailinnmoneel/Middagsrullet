@@ -1,4 +1,4 @@
-// let foods = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
+// let food = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
 // 'Spaghetti og Kjøttboller', 'Tapas',
 // 'Protein Pannekaker med jordbær', 'Grønnsaks Wok', 
 // 'Haloumi Burger', 'Biff og Grønnsaker', 'Kyllingsalat', ];
@@ -28,9 +28,8 @@ let allFood = [
 let eatThisFood = 'Middags Rullet';
 let iWantThisFood = '';
 let app = document.getElementById('app');
-
-
          
 // let emptyInput = '  ';
 // var foodInputField;
          
+

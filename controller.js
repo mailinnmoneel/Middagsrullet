@@ -1,16 +1,16 @@
 //Controller
 
+
 function randomFood()
 {   
-    // let eatThisFood = allFood[1].forslag;
 
-    // Map() - funksjon for å hente ut verdien av et felt for hvert objekt og lage en liste med dem.
-    let = listOfFood = forslag.map( allFood => allFood.forslag);
+    for ( var i = 0; i < allFood.length; i ++ )
+    {
+        eatThisFood = allFood[i] [Math.floor(Math.random() * allFood[i].length) ];
 
-    eatThisFood = allFood[].forslag [Math.floor(Math.random() * allFood[].forslag.length) ];
+        console.log(allFood[i].forslag); 
+    }
 
-    console.log(eatThisFood);
-    
     updateView()
 }
 

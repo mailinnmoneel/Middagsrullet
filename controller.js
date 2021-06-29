@@ -1,26 +1,25 @@
 //Controller
+//Denne funker til objekter men er en dårlig løsning i dette tilfellet
+//da det er orddeling/space
+// function randomFood() {
+//     var result;
+//     var count = 0;
+//     for (var obj in allFood)
+//         if (Math.random() < 1/++ count )
+//             result = obj;
+    
+//      eatThisFood = result;
+//         updateView()
+// }
 
 
-function randomFood()
-{   
-
-    for ( var i = 0; i < allFood.length; i ++ )
-    {
-        eatThisFood = allFood[i] [Math.floor(Math.random() * allFood[i].length) ];
-
-        console.log(allFood[i].forslag); 
-    }
+// Denne funker til listen og ikke listen med objektene
+function randomFood() 
+{       
+        eatThisFood = food[Math.floor(Math.random() * food.length)];
 
     updateView()
 }
-
-
-// function randomFood() 
-// {       
-//         eatThisFood = food[Math.floor(Math.random() * food.length)];
-
-//     updateView()
-// }
 
 
 function addFood()

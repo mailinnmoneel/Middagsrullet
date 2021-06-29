@@ -1,17 +1,36 @@
 
-let food = ['Kylling og Pasta', 'Pannestekt Makrell', 'Vegetar Pizza',
-            'Spaghetti og Kjøttboller', 'Tapas',
-            'Protein Pannekaker med jordbær', 'Grønnsaks Wok', 
-            'Haloumi Burger', 'Biff og Grønnsaker', 'Kyllingsalat', ];
+let food = ['Kremet pasta med kylling',
+            'Spaghetti med tomatsaus og kjøttbolle',
+            'Kremet pasta med laks',
+            'Salat med avokado og kylling',
+            'Couscoussalat med kylling og appelsin',
+            'Reke og mangosalat',
+            'Vegetarburger med grillet mais, sopp og tortillachips',
+            'Vegetarpølser med godt tilbehør',
+            'Pannestekt Makrell',
+            'Vegetar Pizza med spinat, tomat og basilikum',
+            'Vegetar Pizza',
+            'Protein pannekaker med jordbær',
+            'Haloumi Burger',
+            'Spaghetti og Kjøttboller',
+            'Wok med nudler og grønnsaker',
+            'Vegetartaco med søtpotet',
+            'Tapas',
+            'Protein Pannekaker med jordbær',
+            'Grønnsaks Wok', 
+            'Haloumi Burger',
+            'Biff og Grønnsaker',
+            'Kyllingsalat', 
+            'Sprøstekt makrell og nypotetsalat',
+            'Tapas med dadler og asparges surret i serranoskinke',
+            'Biff med stekt tomat, småpoteter og soppsaus',
+        ];
 
 
 
 let app = document.getElementById('app');
-let eatThisFood = 'Pizza med Ananas';
+let eatThisFood = 'Middags Rullet';
 let iWantThisFood = '';
 
-// let emptyInput = '  ';
 
-// var foodInputField;
 
-// const food = {type:"Kylling og Pasta", difficulty: "easy" time: "medium",};

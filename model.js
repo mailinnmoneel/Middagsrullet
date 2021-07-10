@@ -1,5 +1,6 @@
 
-let food = ['Kremet pasta med kylling',
+const model = { 
+    food : ['Kremet pasta med kylling',
             'Spaghetti med tomatsaus og kjøttbolle',
             'Kremet pasta med laks',
             'Salat med avokado og kylling',
@@ -24,13 +25,12 @@ let food = ['Kremet pasta med kylling',
             'Sprøstekt makrell og nypotetsalat',
             'Tapas med dadler og asparges surret i serranoskinke',
             'Biff med stekt tomat, småpoteter og soppsaus',
-        ];
+    ],
+    foodInput: null,
+}
 
-
-
-let app = document.getElementById('app');
 let eatThisFood = 'Middags Rullet';
-let iWantThisFood = '';
+
 
 
 

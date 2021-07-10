@@ -1,4 +1,4 @@
-
+let app = document.getElementById('app');
 updateView();
 
 function updateView() {
@@ -11,7 +11,7 @@ function updateView() {
         <div id="addField">
             <h2>Legg til middagsforslag:</h2>
             <div>
-                <input id="foodSuggestions" type="text">
+                <input id="foodSuggestions" type="text" oninput = "model.foodInput = this.value" />
                 <button id="registerButton" onclick="addFood()">Legg til</button>
             </div>
         </div>

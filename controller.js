@@ -1,26 +1,26 @@
 //Controller
 function randomFood() 
 {   
-        eatThisFood = food[Math.floor(Math.random() * food.length)];
+        eatThisFood = model.food[Math.floor(Math.random() * model.food.length)];
 
     updateView()
 }
 
 function addFood()
 {
-    foodInputField = document.getElementById("foodSuggestions"); 
-    let newFood = foodInputField.value;
+    let newFood = model.foodInput;
 
     if (isEmptyOrSpaces(newFood) == true) { alert("Du må skrive noe i feltet"); return; }
 
 
-    food.push(newFood);
+    model.food.push(newFood);
     alert('Ønsket er registrert!');
         
-    updateView()
+    updateView();
+    model.foodInput = null;
 }
 
-function isEmptyOrSpaces(newFood)
+function isEmptyOrSpaces()
 {
-    return newFood === null || newFood.match(/^ *$/) !== null;
+    return model.foodInput === null || model.foodInput.match(/^ *$/) !== null;
 }
